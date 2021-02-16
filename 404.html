@@ -195,6 +195,23 @@ hr {
 </style>
 </head>
 <body>
+<script>
+		window.onload = function () {
+            var url = "main.json"
+            var request = new XMLHttpRequest();
+            request.open("get", url);
+            request.send(null);
+            request.onload = function () {
+                if (request.status == 200) {
+                    var json = JSON.parse(request.responseText);
+                    for(var i=0;i<json.length;i++){
+                    	console.log(json[i].name);
+                    }
+                    console.log(json);
+                }
+            }
+       }
+	</script>
 <div class="number">404</div>
   <div class="text">Page Not Found</div>
    <center>
