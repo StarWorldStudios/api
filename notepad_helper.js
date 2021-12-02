@@ -12,7 +12,7 @@ function loading(){
   var text = "";
   var i = 1;
   while (i < 101) {
-    console.log(i);
+    document.getElementById("loading").style.cssText = "width: "+i+"%";
     sleep(10)
     i++;
   }
