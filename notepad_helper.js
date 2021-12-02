@@ -17,3 +17,4 @@ function loading(){
     i++;
   }
 }
+loading()
