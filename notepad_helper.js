@@ -13,9 +13,10 @@ function loading(){
   var i = 1;
   while (i < 101) {
     document.getElementById("loading").style.cssText = "width: "+i+"%";
+    console.log(i)
     sleep(100)
     i++;
   }
-  document.getElementById("loading").remove();
+  document.getElementById("loading_frame").remove();
 }
 loading()
