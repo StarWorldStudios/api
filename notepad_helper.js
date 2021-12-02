@@ -16,5 +16,6 @@ function loading(){
     sleep(100)
     i++;
   }
+  document.getElementById("loading").remove();
 }
 loading()
