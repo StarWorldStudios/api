@@ -1,4 +1,7 @@
+
+tin-user-logo{
+  transition:all .5s;
+}
 tin-user-logo:hover{
-  -webkit-transform: rotateZ(-360deg);
-  transform: rotateZ(-360deg);
+  transform:rotate(30deg);
 }
