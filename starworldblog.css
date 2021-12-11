@@ -1,14 +1,1 @@
-tin-user-logo img:hover{
-  -webkit-transform: rotate(540deg);
-  -moz-transform: rotate(540deg);
-  -o-transform: rotate(540deg);
-  -ms-transform: rotate(540deg);
-  transform: rotate(540deg);
-}
-tin-user-logo img{
-  -webkit-transition:all .3s;
-  -moz-transition:all .3s;
-  -o-transition:all .3s;
-  -ms-transition:all .3s;
-  transition:all .3s;
-}
+
